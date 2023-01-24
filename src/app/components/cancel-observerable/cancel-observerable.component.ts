@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
 import { interval, Subscription, timer } from 'rxjs';
 
 @Component({
@@ -6,7 +6,7 @@ import { interval, Subscription, timer } from 'rxjs';
   templateUrl: './cancel-observerable.component.html',
   styleUrls: ['./cancel-observerable.component.scss'],
 })
-export class CancelObserverableComponent {
+export class CancelObserverableComponent implements OnDestroy {
   intervalSubscription!:Subscription;
   intervalState!: string;
   constructor() {
@@ -20,7 +20,13 @@ export class CancelObserverableComponent {
       () => {}
     );
   }
+  ngOnDestroy(): void {
+    this.intervalSubscription.unsubscribe();
+
+  }
   stopInterval(){
     this.intervalSubscription.unsubscribe();
   }
+
+  
 }

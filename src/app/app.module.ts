@@ -8,6 +8,7 @@ import { PromiseComponent } from './components/promise/promise.component';
 import { EventComponent } from './components/event/event.component';
 import { NewObservableComponent } from './components/new-observable/new-observable.component';
 import { CancelObserverableComponent } from './components/cancel-observerable/cancel-observerable.component';
+import { MemoryLeakageComponent } from './components/memory-leakage/memory-leakage.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CancelObserverableComponent } from './components/cancel-observerable/ca
     PromiseComponent,
     EventComponent,
     NewObservableComponent,
-    CancelObserverableComponent
+    CancelObserverableComponent,
+    MemoryLeakageComponent
   ],
   imports: [
     BrowserModule,

@@ -17,6 +17,7 @@ export class AppComponent {
     { linkname: 'Event', routerLink: 'event' },
     { linkname: 'New Observable', routerLink: 'observable' },
     { linkname: 'Cancel Observable', routerLink: 'cobservable' },
+    { linkname: 'memoryLeakage ', routerLink: 'memory' },
 
   ];
 }

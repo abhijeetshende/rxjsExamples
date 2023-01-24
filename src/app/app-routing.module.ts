@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ArrayComponent } from './components/array/array.component';
 import { CancelObserverableComponent } from './components/cancel-observerable/cancel-observerable.component';
 import { EventComponent } from './components/event/event.component';
+import { MemoryLeakageComponent } from './components/memory-leakage/memory-leakage.component';
 import { NewObservableComponent } from './components/new-observable/new-observable.component';
 import { PromiseComponent } from './components/promise/promise.component';
 
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path:'cobservable',
     component:CancelObserverableComponent
+  },
+  {
+    path:'memory',
+    component:MemoryLeakageComponent
   }
 ];
 
