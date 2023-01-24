@@ -9,6 +9,7 @@ import { EventComponent } from './components/event/event.component';
 import { NewObservableComponent } from './components/new-observable/new-observable.component';
 import { CancelObserverableComponent } from './components/cancel-observerable/cancel-observerable.component';
 import { MemoryLeakageComponent } from './components/memory-leakage/memory-leakage.component';
+import { MapandfilterComponent } from './components/mapandfilter/mapandfilter.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MemoryLeakageComponent } from './components/memory-leakage/memory-leaka
     EventComponent,
     NewObservableComponent,
     CancelObserverableComponent,
-    MemoryLeakageComponent
+    MemoryLeakageComponent,
+    MapandfilterComponent
   ],
   imports: [
     BrowserModule,
