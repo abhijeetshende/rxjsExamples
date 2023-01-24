@@ -15,6 +15,7 @@ export class AppComponent {
     { linkname: 'Array', routerLink: 'array' },
     { linkname: 'Promise', routerLink: 'promise' },
     { linkname: 'Event', routerLink: 'event' },
+    { linkname: 'New Observable', routerLink: 'observable' },
 
   ];
 }
