@@ -21,6 +21,13 @@ export class AppComponent {
     { linkname: 'mapandfilter ', routerLink: 'mapandfilter' },
     { linkname: 'buffer ', routerLink: 'buffer' },
     { linkname: 'bufferCount ', routerLink: 'bufferCount' },
-
-  ];
+    { linkname: 'bufferToggle ', routerLink: 'bufferToggle' },
+    { linkname: 'Take ', routerLink: 'take' },
+    { linkname: 'TakeLast ', routerLink: 'takelast' },
+    { linkname: 'TakeUntil ', routerLink: 'takeuntil' },
+    { linkname: 'skip ', routerLink: 'skip' },
+    { linkname: 'skipLast ', routerLink: 'skipLast' },
+    { linkname: 'skipUntil ', routerLink: 'skipUntil' },
+    { linkname: 'skipWhile ', routerLink: 'skipWhile' },
+  ];  
 }

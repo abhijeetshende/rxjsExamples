@@ -12,6 +12,15 @@ import { MemoryLeakageComponent } from './components/memory-leakage/memory-leaka
 import { MapandfilterComponent } from './components/mapandfilter/mapandfilter.component';
 import { BufferComponent } from './components/buffer/buffer.component';
 import { BufferCountComponent } from './components/buffer-count/buffer-count.component';
+import { BufferToggleComponent } from './components/buffer-toggle/buffer-toggle.component';
+import { TakeComponent } from './components/take/take.component';
+import { TakeLastComponent } from './components/take-last/take-last.component';
+import { TakeUntilComponent } from './components/take-until/take-until.component';
+import { TakeWhileComponent } from './components/take-while/take-while.component';
+import { SkipComponent } from './components/skip/skip.component';
+import { SkipLastComponent } from './components/skip-last/skip-last.component';
+import { SkipUntilComponent } from './components/skip-until/skip-until.component';
+import { SkipWhileComponent } from './components/skip-while/skip-while.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +33,16 @@ import { BufferCountComponent } from './components/buffer-count/buffer-count.com
     MemoryLeakageComponent,
     MapandfilterComponent,
     BufferComponent,
-    BufferCountComponent
+    BufferCountComponent,
+    BufferToggleComponent,
+    TakeComponent,
+    TakeLastComponent,
+    TakeUntilComponent,
+    TakeWhileComponent,
+    SkipComponent,
+    SkipLastComponent,
+    SkipUntilComponent,
+    SkipWhileComponent
   ],
   imports: [
     BrowserModule,
