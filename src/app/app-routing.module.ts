@@ -6,6 +6,8 @@ import { BufferCountComponent } from './components/buffer-count/buffer-count.com
 import { BufferToggleComponent } from './components/buffer-toggle/buffer-toggle.component';
 import { BufferComponent } from './components/buffer/buffer.component';
 import { CancelObserverableComponent } from './components/cancel-observerable/cancel-observerable.component';
+import { DistinctUntilChangedComponent } from './components/distinct-until-changed/distinct-until-changed.component';
+import { DistinctComponent } from './components/distinct/distinct.component';
 import { EventComponent } from './components/event/event.component';
 import { MapandfilterComponent } from './components/mapandfilter/mapandfilter.component';
 import { MemoryLeakageComponent } from './components/memory-leakage/memory-leakage.component';
@@ -33,64 +35,66 @@ const routes: Routes = [
     component: EventComponent,
   },
   {
-    path:'observable',
-    component:NewObservableComponent
+    path: 'observable',
+    component: NewObservableComponent,
   },
   {
-    path:'cobservable',
-    component:CancelObserverableComponent
+    path: 'cobservable',
+    component: CancelObserverableComponent,
   },
   {
-    path:'memory',
-    component:MemoryLeakageComponent
+    path: 'memory',
+    component: MemoryLeakageComponent,
   },
   {
-    path:'mapandfilter',
-    component:MapandfilterComponent
+    path: 'mapandfilter',
+    component: MapandfilterComponent,
   },
   {
-    path:'buffer',
-    component:BufferComponent
+    path: 'buffer',
+    component: BufferComponent,
   },
   {
-    path:'bufferCount',
-    component:BufferCountComponent
+    path: 'bufferCount',
+    component: BufferCountComponent,
   },
-  
+
   {
-    path:'bufferToggle',
-    component:BufferToggleComponent
+    path: 'bufferToggle',
+    component: BufferToggleComponent,
   },
-    
+
   {
-    path:'take',
-    component:TakeComponent
-  },
-  {
-    path:'takelast',
-    component:TakeLastComponent
+    path: 'take',
+    component: TakeComponent,
   },
   {
-    path:'takeuntil',
-    component:TakeUntilComponent
+    path: 'takelast',
+    component: TakeLastComponent,
   },
   {
-    path:'skip',
-    component:SkipComponent
+    path: 'takeuntil',
+    component: TakeUntilComponent,
   },
   {
-    path:'skipUntil',
-    component:SkipUntilComponent
+    path: 'skip',
+    component: SkipComponent,
   },
   {
-    path:'skipWhile',
-    component:SkipWhileComponent
+    path: 'skipUntil',
+    component: SkipUntilComponent,
   },
   {
-    path:'skipLast',
-    component:SkipLastComponent
+    path: 'skipWhile',
+    component: SkipWhileComponent,
   },
-  
+  {
+    path: 'skipLast',
+    component: SkipLastComponent,
+  },
+
+  { path: 'distinct', component: DistinctComponent },
+  { path: 'distinctUntil', component: DistinctUntilChangedComponent },
 ];
 
 @NgModule({
