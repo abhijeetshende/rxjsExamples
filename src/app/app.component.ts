@@ -31,5 +31,7 @@ export class AppComponent {
     { linkname: 'skipWhile ', routerLink: 'skipWhile' },
     { linkname: 'Distinct ', routerLink: 'distinct' },
     { linkname: 'DistinctUtil ', routerLink: 'distinctUntil' },
+    { linkname: 'filter ', routerLink: 'filter' },
+    { linkname: 'sample ', routerLink: 'sample' },
   ];  
 }

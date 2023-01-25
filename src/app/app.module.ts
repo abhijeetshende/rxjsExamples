@@ -23,6 +23,10 @@ import { SkipUntilComponent } from './components/skip-until/skip-until.component
 import { SkipWhileComponent } from './components/skip-while/skip-while.component';
 import { DistinctComponent } from './components/distinct/distinct.component';
 import { DistinctUntilChangedComponent } from './components/distinct-until-changed/distinct-until-changed.component';
+import { FilterComponent } from './components/filter/filter.component';
+import { SampleComponent } from './components/sample/sample.component';
+import { AuditComponent } from './components/audit/audit.component';
+import { ThrottleComponent } from './components/throttle/throttle.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +51,10 @@ import { DistinctUntilChangedComponent } from './components/distinct-until-chang
     SkipWhileComponent,
     DistinctComponent,
     DistinctUntilChangedComponent,
+    FilterComponent,
+    SampleComponent,
+    AuditComponent,
+    ThrottleComponent,
   ],
   imports: [
     BrowserModule,

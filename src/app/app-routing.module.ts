@@ -9,10 +9,12 @@ import { CancelObserverableComponent } from './components/cancel-observerable/ca
 import { DistinctUntilChangedComponent } from './components/distinct-until-changed/distinct-until-changed.component';
 import { DistinctComponent } from './components/distinct/distinct.component';
 import { EventComponent } from './components/event/event.component';
+import { FilterComponent } from './components/filter/filter.component';
 import { MapandfilterComponent } from './components/mapandfilter/mapandfilter.component';
 import { MemoryLeakageComponent } from './components/memory-leakage/memory-leakage.component';
 import { NewObservableComponent } from './components/new-observable/new-observable.component';
 import { PromiseComponent } from './components/promise/promise.component';
+import { SampleComponent } from './components/sample/sample.component';
 import { SkipLastComponent } from './components/skip-last/skip-last.component';
 import { SkipUntilComponent } from './components/skip-until/skip-until.component';
 import { SkipWhileComponent } from './components/skip-while/skip-while.component';
@@ -95,6 +97,8 @@ const routes: Routes = [
 
   { path: 'distinct', component: DistinctComponent },
   { path: 'distinctUntil', component: DistinctUntilChangedComponent },
+  { path: 'filter', component: FilterComponent },
+  { path: 'sample', component: SampleComponent },
 ];
 
 @NgModule({
