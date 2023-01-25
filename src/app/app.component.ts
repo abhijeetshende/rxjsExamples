@@ -20,6 +20,7 @@ export class AppComponent {
     { linkname: 'memoryLeakage ', routerLink: 'memory' },
     { linkname: 'mapandfilter ', routerLink: 'mapandfilter' },
     { linkname: 'buffer ', routerLink: 'buffer' },
+    { linkname: 'bufferCount ', routerLink: 'bufferCount' },
 
   ];
 }

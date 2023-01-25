@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { buffer } from 'rxjs';
 import { ArrayComponent } from './components/array/array.component';
+import { BufferCountComponent } from './components/buffer-count/buffer-count.component';
 import { BufferComponent } from './components/buffer/buffer.component';
 import { CancelObserverableComponent } from './components/cancel-observerable/cancel-observerable.component';
 import { EventComponent } from './components/event/event.component';
@@ -42,7 +43,12 @@ const routes: Routes = [
   {
     path:'buffer',
     component:BufferComponent
-  }
+  },
+  {
+    path:'bufferCount',
+    component:BufferCountComponent
+  },
+  
 ];
 
 @NgModule({
