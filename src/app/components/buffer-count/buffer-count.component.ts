@@ -10,7 +10,7 @@ export class BufferCountComponent implements OnInit, OnDestroy {
   intervalSubscription$! :Subscription;
   ngOnInit(): void {
     // const clicks = fromEvent(document, 'click');
-    interval(1000)
+    this.intervalSubscription$=  interval(1000)
       .pipe(bufferCount(3,2))
       .subscribe((x) => console.log(x));
   }
