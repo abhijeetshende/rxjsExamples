@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { buffer } from 'rxjs';
 import { ArrayComponent } from './components/array/array.component';
+import { BufferComponent } from './components/buffer/buffer.component';
 import { CancelObserverableComponent } from './components/cancel-observerable/cancel-observerable.component';
 import { EventComponent } from './components/event/event.component';
 import { MapandfilterComponent } from './components/mapandfilter/mapandfilter.component';
@@ -36,6 +38,10 @@ const routes: Routes = [
   {
     path:'mapandfilter',
     component:MapandfilterComponent
+  },
+  {
+    path:'buffer',
+    component:BufferComponent
   }
 ];
 

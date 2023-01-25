@@ -19,6 +19,7 @@ export class AppComponent {
     { linkname: 'Cancel Observable', routerLink: 'cobservable' },
     { linkname: 'memoryLeakage ', routerLink: 'memory' },
     { linkname: 'mapandfilter ', routerLink: 'mapandfilter' },
+    { linkname: 'buffer ', routerLink: 'buffer' },
 
   ];
 }

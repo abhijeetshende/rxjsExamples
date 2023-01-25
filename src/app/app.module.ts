@@ -10,6 +10,7 @@ import { NewObservableComponent } from './components/new-observable/new-observab
 import { CancelObserverableComponent } from './components/cancel-observerable/cancel-observerable.component';
 import { MemoryLeakageComponent } from './components/memory-leakage/memory-leakage.component';
 import { MapandfilterComponent } from './components/mapandfilter/mapandfilter.component';
+import { BufferComponent } from './components/buffer/buffer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MapandfilterComponent } from './components/mapandfilter/mapandfilter.co
     NewObservableComponent,
     CancelObserverableComponent,
     MemoryLeakageComponent,
-    MapandfilterComponent
+    MapandfilterComponent,
+    BufferComponent
   ],
   imports: [
     BrowserModule,
